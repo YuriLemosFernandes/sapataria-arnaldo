@@ -30,7 +30,7 @@ body {
 }
 
 .menu a{
-    color:#732472;
+    color:#180F4A;
     text-decoration: none;
     font-size:20px;
     padding:20px 16px; 
@@ -38,7 +38,7 @@ body {
 
 
 #botao{
-    background: #732472;
+    background: #180F4A;
     padding: 10px 25px;
     color:white;
     border-radius:5px;
@@ -46,7 +46,7 @@ body {
 
 #botao:hover{
     border:none;
-    background: #6a1a7e;
+    background: #3a256e;
 }
 
 .header{
@@ -79,7 +79,7 @@ body {
 
 .contact-btn{
     display: inline-block;
-    background: #f9a72e;
+    background: #180F4A;
     padding:20px;
     color:white;
     text-transform: uppercase;
@@ -88,7 +88,7 @@ body {
 }
 
 .contact-btn:hover{
-    background:purple;
+    background:#180F4A;
 }
 
 .img-headline{
@@ -160,7 +160,7 @@ footer{
     height: 360px;
     background-image:linear-gradient(180deg,#180F4A,#090422,black);
     text-align:center;
-    border-top:5px solid #FF2978;
+    border-top:7px solid #FF2978;
 }
 
 .logo-rodape{
