@@ -15,7 +15,6 @@ body {
     align-items: center;
     position:fixed;
     width: 100%;
-    
 }
 
 .logo{
@@ -26,7 +25,6 @@ body {
 .menu{
     text-align:right;
     padding:28px;
-    
 }
 
 .menu a{
