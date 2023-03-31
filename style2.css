@@ -15,6 +15,7 @@ body {
     align-items: center;
     position:fixed;
     width: 100%;
+    
 }
 
 .logo{
@@ -25,18 +26,18 @@ body {
 .menu{
     text-align:right;
     padding:28px;
+    
 }
 
 .menu a{
-    color:#180F4A;
+    color:#1C0A00;
     text-decoration: none;
     font-size:20px;
     padding:20px 16px; 
 }
 
-
 #botao{
-    background: #180F4A;
+    background: #1C0A00;
     padding: 10px 25px;
     color:white;
     border-radius:5px;
@@ -44,7 +45,7 @@ body {
 
 #botao:hover{
     border:none;
-    background: #3a256e;
+    background: #552911;
 }
 
 .header{
@@ -73,16 +74,6 @@ body {
 .headline p{
     color:gray;
     text-align:left;
-}
-
-.contact-btn{
-    display: inline-block;
-    background: #180F4A;
-    padding:20px;
-    color:white;
-    text-transform: uppercase;
-    border-radius:5px;
-    text-decoration: none;
 }
 
 .contact-btn:hover{
@@ -121,26 +112,6 @@ section h2{
     margin-top:5%;
 }
 
-.card{
-    display: inline-block;
-    width: 30%;
-    padding:20px;
-    margin:1%;
-    border:1px solid #FF2978;
-    border-radius:10px;
-    cursor:pointer;
-}
-
-.texto-oculto{
-    display: none;
-}
-
-.card:hover{
-    background: #FF2978;
-    color:white;
-    padding:40px;
-}
-
 .card:hover img{
     display: none;
 }
@@ -154,18 +125,18 @@ section h2{
 }
 
 footer{
-    margin-top:150px;
-    height: 360px;
-    background-image:linear-gradient(180deg,#180F4A,#090422,black);
+    margin-top:379px;
+    background-image:linear-gradient(to bottom,#361500,#0f0500);
     text-align:center;
-    border-top:7px solid #FF2978;
+    border-top:7px solid #724e31;
 }
+
 .logo-rodape{
     padding:100px;
 }
 
 .agencia{
-    font-family: 'Lobster', cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color:white;
     font-size:34px;
 }
@@ -175,4 +146,11 @@ footer{
     bottom:5px;
     right:5px;
    
+}
+
+.banner{
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    
 }

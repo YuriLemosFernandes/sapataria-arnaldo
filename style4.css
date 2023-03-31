@@ -1,0 +1,207 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Arimo", sans-serif;
+}
+
+.nav-menu {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background: #e0cdc7;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+
+}
+
+.logo {
+    margin-left: 10%;
+    text-align: left;
+}
+
+.menu {
+    text-align: right;
+    padding: 28px;
+
+}
+
+.menu a {
+    color: #1C0A00;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+
+#botao {
+    background: #1C0A00;
+    padding: 10px 25px;
+    color: #e0cdc7;
+    border-radius: 5px;
+}
+
+#botao:hover {
+    border: none;
+    background: #552911;
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding-top: 100px;
+}
+
+.headline {
+    margin-left: 10%;
+    flex: 40%;
+    /* border:1px solid black; */
+}
+
+.headline h2 {
+    font-weight: 900;
+    font-size: 20px;
+    color: #1c0b1b;
+    padding: 0;
+    margin: 0;
+}
+
+.headline p {
+    color: gray;
+    text-align: left;
+}
+
+.contact-btn:hover {
+    background: #180F4A;
+}
+
+.img-headline {
+    margin-right: 10%;
+    flex: 40%;
+    /* border:1px solid deeppink; */
+    text-align: center;
+}
+
+section {
+    display: inline-block;
+    margin-top: 80px;
+    /* border:1px solid black; */
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    text-align: center;
+
+}
+
+section h2 {
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    color: Black;
+}
+
+.servicos {
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card:hover img {
+    display: none;
+}
+
+.card:hover .card-text {
+    display: none;
+}
+
+.card:hover .texto-oculto {
+    display: block;
+}
+
+footer {
+    margin-top: 379px;
+    background-image: linear-gradient(to bottom, #361500, #0f0500);
+    text-align: center;
+    border-top: 7px solid #724e31;
+}
+
+.logo-rodape {
+    padding: 100px;
+}
+
+.agencia {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #e0cdc7;
+    font-size: 34px;
+}
+
+.whats {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+
+}
+
+.banner {
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+
+}
+
+.titulo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: hsl(22, 73%, 14%);
+    color: #e0cdc7;
+    padding: 11px;
+    text-align: center;
+    font-size: x-large;
+
+}
+
+.sub {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 9px;
+    font-size: x-large;
+    color: #1c0b1b;
+}
+
+.sap {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1C0A00;
+    padding-left: 22px;
+}
+
+.produtos-lista {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.ul-prod{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.ul-prod li img{
+    width: 200px;
+    
+}
+
+.titulo-produtos{
+    font-size: medium;
+    width: 200px;
+    color: #363636;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.preço{
+    width: 200px;
+    
+}
