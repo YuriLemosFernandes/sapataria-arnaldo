@@ -5,6 +5,7 @@ body {
     font-size: 14px;
     line-height: 24px;
     font-family: "Arimo", sans-serif;
+    margin: 0;
 }
 
 .nav-menu {
@@ -181,8 +182,8 @@ footer {
 
 .produtos-lista {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 1px;
+    padding: 1px;
 }
 .ul-prod{
     display: flex;
@@ -191,17 +192,31 @@ footer {
 }
 
 .ul-prod li img{
-    width: 200px;
-    
+    width: 150px;
 }
 
 .titulo-produtos{
     font-size: medium;
-    width: 200px;
+    width: 150px;
     color: #363636;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .preço{
-    width: 200px;
+    width: 150px;
+    font-size:medium;
+    font-weight: 30000;
     
+}
+
+.ul-prod li{
+    border-color: #bdbbba;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.barra{
+    width: 97vw;
+    size: 20px;
 }
