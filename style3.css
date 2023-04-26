@@ -114,7 +114,6 @@ section{
     margin-left:5%;
     margin-right:5%;
     padding:5%;
-    text-align: center;
     
 }
 
@@ -178,7 +177,9 @@ main{
 .principal{
     height: 500px;
     width: 600px;
-    margin-left: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .form input, .form textarea, .form button, .form select{
@@ -192,8 +193,14 @@ label{
    align-items: flex-start;
 }
 
-textarea{
+.form textarea{
     resize: none;
-    height: 50px;
+    height: 80px;
 }
 
+.fachada{
+    object-fit: cover;
+    width: 295px;
+    height: 400px;
+    
+}

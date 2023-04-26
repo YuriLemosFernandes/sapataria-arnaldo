@@ -184,10 +184,10 @@ footer {
 .titulo {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: hsl(22, 73%, 14%);
-    color: #e0cdc7;
-    padding: 11px;
+    color: #f5e8e4;
+    padding: 18px;
     text-align: center;
-    font-size: x-large;
+    font-size: 30px;
 
 }
 
@@ -252,6 +252,7 @@ main{
 }
 
 a:link {
+    color: #000000;
     text-decoration:none;
   }
   a:visited {
