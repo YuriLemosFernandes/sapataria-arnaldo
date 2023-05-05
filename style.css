@@ -167,3 +167,76 @@ footer{
 main{
     height: 50vh;
 }
+
+.sap {
+    font-family: 'Open Sans', sans-serif;
+    color: #1C0A00;
+    padding-left: 22px;
+}
+
+.produtos-lista {
+    list-style-type: none;
+    margin: 1px;
+    padding: 1px;
+}
+
+.ul-prod {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.ul-prod li img {
+    width: 150px;
+}
+
+.titulo-produtos {
+    font-size: medium;
+    width: 150px;
+    color: #363636;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.preço {
+    width: 150px;
+    font-size: medium;
+    font-weight: 30000;
+    color: #583e27;
+    font-weight: 3100;
+
+}
+
+.ul-prod li {
+    border-radius: 15px;
+    padding: 10px;
+    width: 500px;
+}
+
+a:link {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #583e27;
+}
+
+.linha1{
+    margin-left: 0%;
+    width: 720px;
+}
+
+.linha2{
+    margin-right: 0%;
+    width: 720px;
+}
+
+.destaques-index{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}

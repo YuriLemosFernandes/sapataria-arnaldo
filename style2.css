@@ -189,3 +189,22 @@ main div p::first-line{
     font-family: 'Open Sans', sans-serif;
     font-size:15px;
 }
+
+.sapateiro-sorrindo{
+    height: 300px;
+}
+
+.linha1{
+    margin-left: 0%;
+    width: 720px;
+}
+
+.linha2{
+    margin-right: 0%;
+    width: 720px;
+}
+
+.destaques-index{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
